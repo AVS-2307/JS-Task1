@@ -45,7 +45,11 @@ while(true) {
     else if (+userNumber === secretNumber) {
         alert("Вы угадали!")
     }
-    else if (+userNumber !== secretNumber) {
-        alert("Не угадали, попробуйте ещё раз")
+    else if (+userNumber >= secretNumber) {
+        alert("Введенное число больше загаданного, попробуйте ещё раз")
     }
+    else if (+userNumber <= secretNumber) {
+        alert("Введенное число меньше загаданного, попробуйте ещё раз")
+    }
+
 }
