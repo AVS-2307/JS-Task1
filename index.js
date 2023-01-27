@@ -35,6 +35,7 @@ while(true) {
     console.log(`Введено ${userNumber}`)
 
     if (userNumber === 'q') {
+        alert('Спасибо за участие!')
         break
     }
 
